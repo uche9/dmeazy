@@ -1,0 +1,16 @@
+.calculators--container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.b--image{
+    width: 100%;
+    height: 300px;
+    filter:brightness(30%)
+}
+.calc--icon:hover{
+    transform: scale(1.2);
+    transition: 1s;
+}

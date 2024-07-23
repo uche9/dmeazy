@@ -1,0 +1,131 @@
+
+.calc--super--container{
+width: 100%;
+background-color: #abc;
+height: 900px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+}
+
+.calculators{
+    min-width: 300px ;
+    background-color: red;
+}
+
+.calculator--container{
+ display: flex;
+ align-items: center;
+ justify-content:center;
+ flex-direction: column;
+ margin-top: 20px;
+ width: 70%;
+ background-color:'';
+}
+
+.calc--text1{
+font-size: 20px;
+font-style: italic;
+text-align: center;
+}
+
+.calc--text2{
+    font-size: 26px;
+    margin-bottom:20px ;
+    margin-top:20px ;
+    text-align: center;
+    font-weight: 600;
+}
+
+.text{
+    width:35%;
+}
+.text--label{
+    width: 100%;
+    background-color:'';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.input{
+ font-size: 25px;
+ width: 70%;
+ height: 100%;
+ border-radius: 3px;
+ margin-left: 5px;
+}
+
+.total{
+    width:50%;
+    font-weight: 800;
+    font-size: 24px;
+    text-align: center;
+}
+
+.total--value{
+    background-color:'';
+    font-size:22px;
+    z-index:1;
+    height: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:red;
+    border-style: outset;
+    border-radius: 7px;
+    padding: 3px;
+}
+
+#range{
+        width: 90%;
+        height: 50px;
+        border-radius: 3px;
+        background-color:'';
+        z-index: ''; 
+        margin-left: 8%;
+
+}
+
+.slider--track{
+    width: 84%;
+    height: 1px;
+    border-radius: 3px;
+    background-color:'';
+    z-index: '';
+    padding-right: 10px;
+}
+
+.slider{
+    text-align: center;
+    font-size: 18px;
+    width: 55px;
+    height: 22px;
+    border-radius: 4px;
+    background-color: yellow;
+    transform: translateY(-40%);
+    border:solid red 2px 
+   }
+
+.slider--container{
+    width: 100%;
+    background-color:'';
+    display: flex;
+    justify-content: '';
+    align-items: center;
+    padding-top: 0%;   
+}
+
+.check--box{
+    margin:4px;
+    width: 20px;
+    height:20px;
+}
+
+.calculators{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+}
